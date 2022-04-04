@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Quicksand:wght@600&display=swap');
+
+.box {
+    height: 500px;
+    width: 500px;
+}
+
+form > h1{
+    color: black;
+}
+
+.submitButton{
+    background-color: black;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+    cursor: pointer;
+    transition: all 350ms ease;
+}
+
+.submitButton:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+form {
+    height: 500px;
+    width: 500px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 30px;
+    border-radius: 20px;
+}

@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Quicksand:wght@600&display=swap');
+
+
+.containerr {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(33,35,36,1) 99%);
+}
+
+.semicircle{
+    position: sticky;
+    height: 50em;
+    width: 50em;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+    transform: rotate(300deg);
+    transform: translate(45em,-35em);
+}   
+
+.header_section {
+    display: flex;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navigation {
+    flex: 0.5;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+.AboutMe , .services,  .attendence, .students{
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+
+.logo {
+    flex: 0.5;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.logo > img {
+    width: 100px;
+    height: 100px;
+}
+
+.title_part{
+
+    width: fit-content;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+.title{
+    font-size: 72px;
+    background: -webkit-linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+}
+.title2{
+    font-size: 72px;
+    background: -webkit-linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+}
+.button {
+    background-color: aqua;
+    position: absolute;
+    top: 70%;
+    left: 2%;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 300ms ease;
+}
+
+.button:hover {
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+/* https://www.timelabs.in/images/moduleBox/ATTENDANCE.png */

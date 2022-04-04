@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Quicksand:wght@600&display=swap');
+
+#date{
+    background: white;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#date::placeholder{
+    font-family: 'Quicksand', sans-serif;
+    font-size: small;
+    
+}
+
+#create::placeholder{
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+}
+
+#create{
+    background: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+
+#create:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+#button {
+    cursor: pointer;
+}
+#allAttendences {
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 2%;
+    padding: 10px;
+    transition: all 350ms ease;
+}
+
+#allAttendences:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}

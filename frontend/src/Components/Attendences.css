@@ -1,0 +1,16 @@
+#addattend {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    cursor: pointer;
+    background-color: white;
+    color: black;   
+    transition: all 350ms ease;
+}
+
+#addattend:hover{
+
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
